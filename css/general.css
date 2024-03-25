@@ -1,0 +1,34 @@
+/* /*************************** */
+/* GENERAL REUSABLE COMPONENTS */
+/* /*************************** */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.paragraph {
+  font-size: 2.4rem;
+  line-height: 3.8rem;
+}
+
+.container {
+  padding: 0 18.5rem;
+  max-width: 190rem;
+  margin: 0 auto;
+}
+
+.primary-section-text {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.secondary-section-text,
+.nav-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 3.6px;
+}
